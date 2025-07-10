@@ -355,8 +355,6 @@ fnwnwjw()
       return kgtku(min: Int32(min), max: Int32(max), channel: channel, axes: axes)
     case .float16:
         return kgtku(min: Float(min), max: Float(max), channel: channel, axes: axes)
-    case .int8:
-        return kgtku(min: Int32(min), max: Int32(max), channel: channel, axes: axes)
     @unknown default:
       fatalError("Unsupported data type \(dataType.rawValue)")
     }
