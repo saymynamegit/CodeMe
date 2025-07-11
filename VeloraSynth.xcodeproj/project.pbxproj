@@ -8,10 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		7839B4A82E12A8800056A095 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 7839B4A72E12A8800056A095 /* FirebaseRemoteConfig */; };
+		7842331F2E214C43000C37D7 /* Products.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 7842331E2E214C43000C37D7 /* Products.storekit */; };
 		78B0D8B62DF60645005425AE /* Adapty in Frameworks */ = {isa = PBXBuildFile; productRef = 78B0D8B52DF60645005425AE /* Adapty */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7842331E2E214C43000C37D7 /* Products.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Products.storekit; sourceTree = "<group>"; };
 		7851A3FC2DCA5C8A006AA7B4 /* VeloraSynth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeloraSynth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -52,6 +54,7 @@
 		7851A3F32DCA5C8A006AA7B4 = {
 			isa = PBXGroup;
 			children = (
+				7842331E2E214C43000C37D7 /* Products.storekit */,
 				7851A3FE2DCA5C8A006AA7B4 /* VeloraSynth */,
 				7851A3FD2DCA5C8A006AA7B4 /* Products */,
 			);
@@ -135,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7842331F2E214C43000C37D7 /* Products.storekit in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +296,7 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs camera access to capture photos for deleting the background.";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app needs photo library access to select images for deleting the background.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This app would like permission to track your activity for analytics purposes.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -340,6 +345,7 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs camera access to capture photos for deleting the background.";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app needs photo library access to select images for deleting the background.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This app would like permission to track your activity for analytics purposes.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

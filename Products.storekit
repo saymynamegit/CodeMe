@@ -9,7 +9,7 @@
       }
     ]
   },
-  "identifier" : "2DBED81F",
+  "identifier" : "E3326139",
   "nonRenewingSubscriptions" : [
 
   ],
@@ -32,11 +32,11 @@
   },
   "subscriptionGroups" : [
     {
-      "id" : "B81A6F39",
+      "id" : "B97450E3",
       "localizations" : [
 
       ],
-      "name" : "testSub",
+      "name" : "eraserGroup",
       "subscriptions" : [
         {
           "adHocOffers" : [
@@ -48,7 +48,7 @@
           "displayPrice" : "6.99",
           "familyShareable" : false,
           "groupNumber" : 1,
-          "internalID" : "8DE5DC99",
+          "internalID" : "9E8C2AFE",
           "introductoryOffer" : null,
           "localizations" : [
             {
@@ -57,10 +57,42 @@
               "locale" : "en_US"
             }
           ],
-          "productID" : "featureWeekly",
+          "productID" : "eraserWeekly",
           "recurringSubscriptionPeriod" : "P1W",
-          "referenceName" : "featureWeekly",
-          "subscriptionGroupID" : "B81A6F39",
+          "referenceName" : "eraserWeekly",
+          "subscriptionGroupID" : "B97450E3",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "6.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "67FC999E",
+          "introductoryOffer" : {
+            "internalID" : "93C1D1A1",
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P3D"
+          },
+          "localizations" : [
+            {
+              "description" : "",
+              "displayName" : "",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "eraserWeeklyTrial",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "eraserWeeklyTrial",
+          "subscriptionGroupID" : "B97450E3",
           "type" : "RecurringSubscription",
           "winbackOffers" : [
 
@@ -76,7 +108,7 @@
           "displayPrice" : "17.99",
           "familyShareable" : false,
           "groupNumber" : 1,
-          "internalID" : "4B35B8AD",
+          "internalID" : "2A791AE0",
           "introductoryOffer" : null,
           "localizations" : [
             {
@@ -85,10 +117,10 @@
               "locale" : "en_US"
             }
           ],
-          "productID" : "featureMonthly",
+          "productID" : "eraserMonthly",
           "recurringSubscriptionPeriod" : "P1M",
-          "referenceName" : "featureMonthly",
-          "subscriptionGroupID" : "B81A6F39",
+          "referenceName" : "eraserMonthly",
+          "subscriptionGroupID" : "B97450E3",
           "type" : "RecurringSubscription",
           "winbackOffers" : [
 
@@ -104,7 +136,7 @@
           "displayPrice" : "39.99",
           "familyShareable" : false,
           "groupNumber" : 1,
-          "internalID" : "4B74A65D",
+          "internalID" : "DF531798",
           "introductoryOffer" : null,
           "localizations" : [
             {
@@ -113,42 +145,10 @@
               "locale" : "en_US"
             }
           ],
-          "productID" : "featureAnnual",
+          "productID" : "eraserYearly",
           "recurringSubscriptionPeriod" : "P1Y",
-          "referenceName" : "featureAnnual",
-          "subscriptionGroupID" : "B81A6F39",
-          "type" : "RecurringSubscription",
-          "winbackOffers" : [
-
-          ]
-        },
-        {
-          "adHocOffers" : [
-
-          ],
-          "codeOffers" : [
-
-          ],
-          "displayPrice" : "6.99",
-          "familyShareable" : false,
-          "groupNumber" : 1,
-          "internalID" : "9A7D2F8D",
-          "introductoryOffer" : {
-            "internalID" : "1407A883",
-            "paymentMode" : "free",
-            "subscriptionPeriod" : "P3D"
-          },
-          "localizations" : [
-            {
-              "description" : "",
-              "displayName" : "",
-              "locale" : "en_US"
-            }
-          ],
-          "productID" : "featureWeeklyTrial",
-          "recurringSubscriptionPeriod" : "P1W",
-          "referenceName" : "featureWeeklyTrial",
-          "subscriptionGroupID" : "B81A6F39",
+          "referenceName" : "eraserYearly",
+          "subscriptionGroupID" : "B97450E3",
           "type" : "RecurringSubscription",
           "winbackOffers" : [
 

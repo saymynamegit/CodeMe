@@ -5,30 +5,48 @@ import Adapty
 final class Vxbzwfcq: ObservableObject {
     
     func yalmaipzgaf() async {
-    var  swxsuleshap:  Array<Int> {
-    var wtpmnraiaa: Array<Int> = [622, 865, 617, 997, 212, 263, 875]
-    DispatchQueue.main.async {
-    let hwlavpezfur = arc4random_uniform(100)
-}
-
-    return wtpmnraiaa
-    }
-    
-    let mirjckfsoahal = mirjckfsoahal
-wvlyibik()
-
         guard !mtshozv else { return }
         mtshozv = true
-        do {
-            let paywall = try await Adapty.getPaywall(placementId: Kwpqoun.Gdtjyeytmhlayg.Ezhboam.moeu, locale: "en")
-            let products = try await Adapty.getPaywallProducts(paywall: paywall)
-            self.paywall = paywall
-            self.products = products
-        } catch {
-            self.error = error.localizedDescription
+        
+        let maxRetries = 3
+        let baseTimeout: TimeInterval = 20.0
+        
+        for attempt in 0..<maxRetries {
+            do {
+                // Increase timeout with each retry
+                let timeout = baseTimeout + Double(attempt * 5)
+                
+                let paywall = try await Adapty.getPaywall(
+                    placementId: Kwpqoun.Gdtjyeytmhlayg.Ezhboam.moeu,
+                    loadTimeout: timeout
+                )
+                let products = try await Adapty.getPaywallProducts(paywall: paywall)
+                
+                self.paywall = paywall
+                self.products = products
+                
+                // Success - exit the retry loop
+                mtshozv = false
+                return
+                
+            } catch {
+                print("Attempt \(attempt + 1) failed: \(error.localizedDescription)")
+                
+                // If this is the last attempt, set the error
+                if attempt == maxRetries - 1 {
+                    self.error = error.localizedDescription
+                } else {
+                    // Wait before retrying with exponential backoff
+                    let delay = UInt64(pow(2.0, Double(attempt)) * 1_000_000_000) // 1s, 2s, 4s
+                    try? await Task.sleep(nanoseconds: delay)
+                }
+            }
         }
+        
         mtshozv = false
     }
+    
+    
     @Published var products: [AdaptyPaywallProduct] = []
     
     @Published var paywall: AdaptyPaywall?
