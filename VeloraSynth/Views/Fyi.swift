@@ -569,6 +569,7 @@ struct Cyiujgjs: View {
     
     @State private var uijfiuxmlvw = true
     @AppStorage("didFinishOnboarding") var ivdpuarnih = false
+    @AppStorage("didShowSpecialOffer") var ofssfeg = false
     @State private var lxpyaqywgnvrky = false
     @State private var qcgfjyhkhdcff: Fxbzbsq = .zvbizqgdqybykp
     @State private var inwi = false
@@ -587,6 +588,7 @@ struct Cyiujgjs: View {
     
     @State private var hseeoauekvfhog = false
     @State private var afgnddm = false
+    @State private var offqrgvr = false
     
     @StateObject private var fizymrm = Llhzzaqo()
     @Environment(\.scenePhase) private var tiufsgyqet
@@ -623,6 +625,9 @@ struct Cyiujgjs: View {
                         }
                         .ignoresSafeArea(edges: .bottom)
                     }
+//                    else {
+//                        Goefkek(hseeoauekvfhog: $offqrgvr)
+//                    }
                     
                 } else {
                     Eqfxuvfdlnwckx(ivdpuarnih: $ivdpuarnih)
@@ -636,6 +641,13 @@ struct Cyiujgjs: View {
             if newItem == false {
                 if ivdpuarnih && !hwsmvprpfq.dcajpxib {
                     afgnddm = true
+                }
+            }
+        }
+        .onChange(of: ivdpuarnih) { newItem in
+            if newItem == true {
+                if !hwsmvprpfq.dcajpxib {
+                    offqrgvr = true
                 }
             }
         }
@@ -716,6 +728,9 @@ struct Cyiujgjs: View {
             Button("Cancel", role: .cancel) {}
         } message: {
             Text("Please enable camera access in Settings to use this feature.")
+        }
+        .fullScreenCover(isPresented: $offqrgvr) {
+            Goefkek(hseeoauekvfhog: $offqrgvr)
         }
         .fullScreenCover(isPresented: $hseeoauekvfhog) {
             Flnfuqoi(hseeoauekvfhog: $hseeoauekvfhog)

@@ -404,6 +404,8 @@ var vbtetqvov:  Array<Int> {
     static let jcs = "eraserMonthly"
    
     static let flrbt = "eraserYearly"
+    
+    static let oewdfc = "00.00"
    
     
     static let bhvjvlmqvze = URL(string: "https://sites.google.com/view/backgrounderasereditor/contact-us")!

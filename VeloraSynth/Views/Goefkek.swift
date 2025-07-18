@@ -7,7 +7,7 @@ import Network
 // MARK: - SpecialOfferView
 
 
-struct goefkek: View {
+struct Goefkek: View {
 var zpv:  String {
     var anendjkuqnwk: String = "yqfwkl8843F0EC-7C53-418C-99A3-56FDBAB17E7F"
     let _ = Locale.current.identifier
@@ -964,6 +964,6 @@ var aenc:  Dictionary<Int, String> {
 }
 
 #Preview {
-    goefkek(hseeoauekvfhog: .constant(false))
+    Goefkek(hseeoauekvfhog: .constant(false))
         .environmentObject(Dwkyiurcxqap())
 }

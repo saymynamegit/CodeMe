@@ -525,12 +525,12 @@ var atqmm:  Dictionary<Int, String> {
     let nywdcsziuc = UIImpactFeedbackGenerator(style: .medium)
     @State private var cfggghk: Hejqxswu = Hejqxswu(
         title: "Weekly",
-        price: "$6.99",
+        price: "$7.99",
         description: "Per Week",
         yydzltg: false,
         oosaygl: false,
-        mgkahxqwe: "3-Day Trial, then\n$6.99/week",
-        gwdzugnzquwgi: "3-Day Trial, then $6.99/week",
+        mgkahxqwe: "3-Day Trial, then\n$7.99/week",
+        gwdzugnzquwgi: "3-Day Trial, then $7.99/week",
         toznn: .gdf
     )
     
@@ -699,7 +699,7 @@ var atqmm:  Dictionary<Int, String> {
                     let mgkahxqwe = frimobgtny.mgkahxqwe(for: toznn)
                     Nslfnlkcw(
                         ryazooddmqo: ryazooddmqo,
-                        isSelected: cfggghk.id == ryazooddmqo.id,
+                        isSelected: cfggghk.toznn == ryazooddmqo.toznn,
                         price: price,
                         mgkahxqwe: mgkahxqwe,
                         gwdzugnzquwgi: ryazooddmqo.gwdzugnzquwgi.replacingOccurrences(of: ryazooddmqo.price, with: price)
@@ -717,12 +717,12 @@ var atqmm:  Dictionary<Int, String> {
     let options: [Hejqxswu] = [
         Hejqxswu(
             title: "Weekly",
-            price: "$6.99",
+            price: "$7.99",
             description: "Per Week",
             yydzltg: false,
             oosaygl: false,
-            mgkahxqwe: "3-Day Trial, then\n$6.99/week",
-            gwdzugnzquwgi: "3-Day Trial, then $6.99/week",
+            mgkahxqwe: "3-Day Trial, then\n$7.99/week",
+            gwdzugnzquwgi: "3-Day Trial, then $7.99/week",
             toznn: .gdf
         ),
         Hejqxswu(

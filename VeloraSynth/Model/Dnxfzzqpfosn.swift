@@ -80,6 +80,8 @@ wqjrdykfrwmfgk()
                 price = price / 4
             case .flrbt:
                 price = price / 52
+            case .oewdfc:
+                price = 0
             }
 
             price = price.gatxxq(to: 2)
@@ -92,11 +94,13 @@ wqjrdykfrwmfgk()
         pbszklslndrbfm.locale = Locale.current
         switch toznn {
         case .ederkywhmruvny, .gdf:
-            return pbszklslndrbfm.string(from: NSDecimalNumber(decimal: 6.99)) ?? "$6.99/week"
+            return pbszklslndrbfm.string(from: NSDecimalNumber(decimal: 7.99)) ?? "$7.99/week"
         case .jcs:
             return pbszklslndrbfm.string(from: NSDecimalNumber(decimal: 3.99)) ?? "$3.99 per week"
         case .flrbt:
             return pbszklslndrbfm.string(from: NSDecimalNumber(decimal: 0.73)) ?? "$0.73 per week"
+        case.oewdfc:
+            return pbszklslndrbfm.string(from: NSDecimalNumber(decimal: 0.0)) ?? "$0.00"
         }
     }
     func yypkjwpy() {
@@ -193,11 +197,13 @@ wqjrdykfrwmfgk()
      
         switch toznn {
         case .ederkywhmruvny, .gdf:
-            return formatter.string(from: NSDecimalNumber(decimal: 6.99)) ?? "$6.99"
+            return formatter.string(from: NSDecimalNumber(decimal: 7.99)) ?? "$7.99"
         case .jcs:
             return formatter.string(from: NSDecimalNumber(decimal: 17.99)) ?? "$17.99"
         case .flrbt:
             return formatter.string(from: NSDecimalNumber(decimal: 39.99)) ?? "$39.99"
+        case.oewdfc:
+            return formatter.string(from: NSDecimalNumber(decimal: 0.0)) ?? "$0.00"
         }
     }
     func pgkjzzvhpgtov() {
@@ -691,6 +697,7 @@ var aihdcemqc:  Set<Int> {
     case gdf
     case jcs
     case flrbt
+    case oewdfc
 
 
     var bcvnxyte: String {
@@ -703,6 +710,8 @@ var aihdcemqc:  Set<Int> {
             return Uibeqqmoelxfye.jcs
         case .flrbt:
             return Uibeqqmoelxfye.flrbt
+        case .oewdfc:
+            return Uibeqqmoelxfye.oewdfc
         }
     }
 
@@ -845,6 +854,8 @@ zjvvvwbpm()
             return "Popular sub\n\(qlv(toznn: toznn)) per week"
         case .flrbt:
             return "Super sub\n\(qlv(toznn: toznn)) per week"
+        case.oewdfc:
+            return "$0.00"
         }
     } 
 var kuwrbvbxqxb:  Dictionary<String, Double> {
