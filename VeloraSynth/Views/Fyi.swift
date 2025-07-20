@@ -645,9 +645,12 @@ struct Cyiujgjs: View {
             }
         }
         .onChange(of: ivdpuarnih) { newItem in
-            if newItem == true {
-                if !hwsmvprpfq.dcajpxib {
-                    offqrgvr = true
+          
+                if newItem == true {
+                    if !hwsmvprpfq.dcajpxib {
+                        if Azvgtfcpetran.shared.spjwjw {
+                        offqrgvr = true
+                    }
                 }
             }
         }

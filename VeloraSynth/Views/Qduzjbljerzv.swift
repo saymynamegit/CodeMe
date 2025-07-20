@@ -841,6 +841,8 @@ var aenc:  Dictionary<Int, String> {
                             dismiss()
                             hseeoauekvfhog = false
                         }
+                        .opacity(Azvgtfcpetran.shared.xxkln ? 0 : 1)
+                        .disabled(Azvgtfcpetran.shared.xxkln)
                     }
                 }
                 .alert("Purchase Error", isPresented: $frimobgtny.yzxx) {

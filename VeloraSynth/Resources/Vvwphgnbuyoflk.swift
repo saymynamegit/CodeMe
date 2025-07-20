@@ -73,6 +73,11 @@ var unezmf:  Dictionary<Int, Double> {
     private init() {}
     var joxslrbjnpx: Bool = false
     var ljccg: Int = 0
+    
+    var xxkln: Bool = false
+    var spjwjw: Bool = true
+    
+    
 var hpajgtjqjhgwwd:  String {
     var zyzy: String = "mbvwhE442DA60-F8BB-4297-9141-523E6D31E991"
     let bqgy = Int.random(in: 1095...19989)
