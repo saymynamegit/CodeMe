@@ -790,7 +790,8 @@ var aenc:  Dictionary<Int, String> {
              
                 ZStack {
                    
-                    Color.wavcpwugess.edgesIgnoringSafeArea(.all)
+                    Color.zwtjfhoowdynuq.edgesIgnoringSafeArea(.all)
+                    Color.wavcpwugess.edgesIgnoringSafeArea(.top)
                     
                     ZStack {
                         VStack {
@@ -952,8 +953,8 @@ var aenc:  Dictionary<Int, String> {
                     
                 }
             }
-            .cornerRadius(20, wpmukbx: [.topLeft, .topRight])
             .background(Color.zwtjfhoowdynuq.ignoresSafeArea())
+            .cornerRadius(20, wpmukbx: [.topLeft, .topRight])
             
         }
     }

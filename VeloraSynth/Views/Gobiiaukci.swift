@@ -64,6 +64,7 @@ struct Eqfxuvfdlnwckx: View {
         if !frimobgtny.rbvz {
             frimobgtny.bipjuhald(toznn: .ederkywhmruvny) {
                 dismiss()
+                ivdpuarnih = true
             }
         }
     }
@@ -717,8 +718,8 @@ struct Eqfxuvfdlnwckx: View {
     let znvbtqwqsoq = [
         Zehqrnbzbxzmu(
             image:  "vuzkbkv",
-            title: "Remove background\njust in one click",
-            enewsl: "one click",
+            title: "Remove background\neffortlessly",
+            enewsl: "effortlessly",
             description: "Instant background removal – no hassle!\nUpload your photo and get a perfect result in\nseconds."
         ),
         Zehqrnbzbxzmu(
@@ -750,7 +751,9 @@ struct Eqfxuvfdlnwckx: View {
     var body: some View {
         NavigationStack {
             ZStack {
-                Color.wavcpwugess.edgesIgnoringSafeArea(.all)
+                
+                Color.zwtjfhoowdynuq.edgesIgnoringSafeArea(.all)
+                Color.wavcpwugess.edgesIgnoringSafeArea(.top)
                 
                 ZStack {
                     VStack {
@@ -759,6 +762,7 @@ struct Eqfxuvfdlnwckx: View {
                             .scaledToFit()
                             .clipped()
                             .frame(maxWidth: .infinity)
+                            .offset(y: 10)
                         
                         Spacer()
                     }
@@ -775,7 +779,7 @@ struct Eqfxuvfdlnwckx: View {
                                 }
                             }
                             .padding(.top, 22)
-                            .opacity(Azvgtfcpetran.shared.rmpv ? 1 : 0)
+                            .opacity(1)
                             
                             ZStack {
                                 ForEach(0..<znvbtqwqsoq.count, id: \.self) { index in
@@ -873,8 +877,9 @@ struct Eqfxuvfdlnwckx: View {
                                 .opacity(femsvhfzc == znvbtqwqsoq.count - 1 && !Azvgtfcpetran.shared.skrcz ? 1 : 0)
                             }
                         }
-                        .cornerRadius(20, wpmukbx: [.topLeft, .topRight])
                         .background(Color.zwtjfhoowdynuq)
+                        .cornerRadius(20, wpmukbx: [.topLeft, .topRight])
+                       
                     }
                 }
                 .gesture(
@@ -1145,7 +1150,7 @@ struct Tpogg: View {
                                 .xmjsmo(.cqbhqwavagjjcu(color: Color.bjfbafoi))
                                 .opacity(Azvgtfcpetran.shared.pkzbxkeapdewve ? 0.6 : 1)
                             
-                            Text("/ Week")
+                            Text("/ Weekly")
                                 .xmjsmo(.oezzsvr(color: Color.trznvuo))
                                 .foregroundColor(.secondary)
                                 .opacity(Azvgtfcpetran.shared.pkzbxkeapdewve ? 0.6 : 1)

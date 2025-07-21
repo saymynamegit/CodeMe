@@ -397,15 +397,15 @@ var vbtetqvov:  Array<Int> {
     
     // MARK: - Global Parameters
     
-    static let gdf = "eraserWeeklyTrial"
+    static let gdf = "EraserWeeklyTrial"
     
-    static let ederkywhmruvny = "eraserWeekly"
+    static let ederkywhmruvny = "EraserWeekly"
     
     static let jcs = "eraserMonthly"
    
     static let flrbt = "eraserYearly"
     
-    static let oewdfc = "00.00"
+    static let oewdfc = "specialOffer"
    
     
     static let bhvjvlmqvze = URL(string: "https://sites.google.com/view/backgrounderasereditor/contact-us")!

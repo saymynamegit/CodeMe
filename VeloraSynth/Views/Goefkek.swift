@@ -76,7 +76,7 @@ cacrwindxbqgi()
             
             frimobgtny.bipjuhald(toznn: .oewdfc) {
                 dismiss()
-                
+                hseeoauekvfhog = false
             }
         }
     }
@@ -790,12 +790,12 @@ var aenc:  Dictionary<Int, String> {
         NavigationStack {
              
                 ZStack {
-                   
-                    Color.wavcpwugess.edgesIgnoringSafeArea(.all)
+                    Color.zwtjfhoowdynuq.edgesIgnoringSafeArea(.all)
+                    Color.wavcpwugess.edgesIgnoringSafeArea(.top)
                     
                     ZStack {
                         VStack {
-                            Image("pwivvdhu")
+                            Image("spgedfg")
                                 .resizable()
                                 .scaledToFit()
                                 .clipped()
@@ -836,13 +836,12 @@ var aenc:  Dictionary<Int, String> {
                     ToolbarItem(placement: .topBarLeading) {
                         Wjq(
                             image: Image(.close),
-                            color: Color.hksvy.opacity(Azvgtfcpetran.shared.skrcz ? 0.3 : 1)
+                            color: Color.hksvy.opacity(0)
                         ) {
-                            nywdcsziuc.impactOccurred()
-                            dismiss()
-                            hseeoauekvfhog = false
+                           
                         }
                     }
+                    
                 }
                 .alert("Purchase Error", isPresented: $frimobgtny.yzxx) {
                     Button("OK", role: .cancel) { }
@@ -876,7 +875,7 @@ var aenc:  Dictionary<Int, String> {
                 ZStack {
                     
                     Tpogg(
-                        lcvbsnjd: .init(image:  "pwivvdhu", title: "Unlimited access to\n Background remover", enewsl: "Unlimited", description: ""),
+                        lcvbsnjd: .init(image:  "pwivvdhu", title: "7 days free — then lifetime access", enewsl: "", description: ""),
                         index: 0,
                         dnvh: 1,
                         kvfaj: true,
@@ -885,7 +884,9 @@ var aenc:  Dictionary<Int, String> {
                     )
                 }
                 
-                Text(makeAttributedString(from: String(format: "Just for %@", frimobgtny.jezuxznmwtizuy(toznn: .oewdfc)), highlight: frimobgtny.jezuxznmwtizuy(toznn: .oewdfc)))
+                
+                
+                Text(makeAttributedString(from: String(format: "Start now for %@", frimobgtny.jezuxznmwtizuy(toznn: .oewdfc)), highlight: "Start now for \(frimobgtny.jezuxznmwtizuy(toznn: .oewdfc))"))
                     .xmjsmo(.rmlcgfpiqbli(color: .white))
                     .multilineTextAlignment(.center)
                     .fixedSize(horizontal: false, vertical: true)
@@ -948,8 +949,8 @@ var aenc:  Dictionary<Int, String> {
                     
                 }
             }
-            .cornerRadius(20, wpmukbx: [.topLeft, .topRight])
             .background(Color.zwtjfhoowdynuq.ignoresSafeArea())
+            .cornerRadius(20, wpmukbx: [.topLeft, .topRight])
             
         }
     }
