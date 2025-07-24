@@ -10,6 +10,7 @@ import AdSupport
 // MARK: - OnboardingView
 
 struct Eqfxuvfdlnwckx: View {
+ 
     var chlbcqv:  Set<Double> {
         var aoo: Set<Double> = Set([557.2964178364363, 769.8305718111893, 662.540395740039])
         let pjinpljhnfhg = Date()
@@ -715,24 +716,27 @@ struct Eqfxuvfdlnwckx: View {
     @State private var qfhppjvq = false
     @AppStorage("hasRequestedTrackingPermission") private var hasRequestedTrackingPermission: Bool = false
     
+    @Binding var showLifetimeOffer: Bool
+    @Binding var showSpecialOffer: Bool
+        
     let znvbtqwqsoq = [
         Zehqrnbzbxzmu(
             image:  "vuzkbkv",
-            title: "Remove background\neffortlessly",
-            enewsl: "effortlessly",
-            description: "Instant background removal – no hassle!\nUpload your photo and get a perfect result in\nseconds."
-        ),
-        Zehqrnbzbxzmu(
-            image:  "ygwwiryam",
             title: "Precisely accurate\nautomatic cutouts",
             enewsl: "cutouts",
             description: "The background can be automatically\nremoved, or you can manually edit it as\nneeded to achieve a flawless result."
         ),
         Zehqrnbzbxzmu(
+            image:  "ygwwiryam",
+            title: "Remove background\neffortlessly",
+            enewsl: "effortlessly",
+            description: "Instant background removal – no hassle!\nUpload your photo and get a perfect result in\nseconds."
+        ),
+        Zehqrnbzbxzmu(
             image:  "inmoxbrnlx",
             title: "Clearly define your\nphotos Outline",
             enewsl: "Outline",
-            description: "Select any image from your gallery or\nexplore our backgrounds collection to create\nthe perfect look."
+            description: "Select an image or pick a background to\ndefine the edges of your photo, enhancing\nclarity and visual appeal."
         ),
         Zehqrnbzbxzmu(
             image:  "ontafqbihvl",
@@ -755,15 +759,16 @@ struct Eqfxuvfdlnwckx: View {
                 Color.zwtjfhoowdynuq.edgesIgnoringSafeArea(.all)
                 Color.wavcpwugess.edgesIgnoringSafeArea(.top)
                 
-                ZStack {
+                ZStack() {
                     VStack {
                         Image(znvbtqwqsoq[femsvhfzc].image)
                             .resizable()
                             .scaledToFit()
                             .clipped()
                             .frame(maxWidth: .infinity)
-                            .offset(y: 10)
-                        
+                            .ignoresSafeArea(femsvhfzc == 4 || femsvhfzc == 3 ? .all : .keyboard)
+                            .offset(y: -10)
+                          
                         Spacer()
                     }
                     
@@ -778,7 +783,8 @@ struct Eqfxuvfdlnwckx: View {
                                         .frame(width: femsvhfzc == index ? 32 : 8, height: 8)
                                 }
                             }
-                            .padding(.top, 22)
+                            .padding(.top, 35)
+                            .padding(.bottom, 10)
                             .opacity(1)
                             
                             ZStack {
@@ -796,7 +802,7 @@ struct Eqfxuvfdlnwckx: View {
                                     .opacity(femsvhfzc == index ? 1 : 0)
                                 }
                             }
-                            .padding(.bottom, 10)
+                            .padding(.bottom, 20)
                             
                             VStack(spacing: 12) {
                                 Button(action: {
@@ -839,6 +845,7 @@ struct Eqfxuvfdlnwckx: View {
                                 .gkdw(color: Color.bjfbafoi, radius: 4, x: 0, y: 2)
                                 .buttonStyle(Tsvauruplj())
                                 .padding(.horizontal, 30)
+                                .padding(.bottom, 10)
                                 .scaleEffect(jyejkhkxedajw ? 1 : 0.75)
                                 .onAppear {
                                     jyejkhkxedajw = true
@@ -872,9 +879,24 @@ struct Eqfxuvfdlnwckx: View {
                                         Text("Privacy Policy")
                                             .underline()
                                     }
+                                    
+                                    if Azvgtfcpetran.shared.skrcz {
+                                        Button(
+                                            action: {
+                                                if Azvgtfcpetran.shared.spjwjw {
+                                                    showLifetimeOffer = true
+                                                } else if Azvgtfcpetran.shared.sprnnndkke {
+                                                    showSpecialOffer = true
+                                                }
+                                                nywdcsziuc.impactOccurred()
+                                            }) {
+                                                Text(Azvgtfcpetran.shared.spjwjw ? "Lifetime" : "Special Offer")
+                                                    .underline()
+                                            }
+                                    }
                                 }
                                 .xmjsmo(.ioibd(color: Color.seyoqnymjbswa))
-                                .opacity(femsvhfzc == znvbtqwqsoq.count - 1 && !Azvgtfcpetran.shared.skrcz ? 1 : 0)
+                                .opacity(femsvhfzc == 4 ? 1 : 0)
                             }
                         }
                         .background(Color.zwtjfhoowdynuq)
@@ -1155,23 +1177,12 @@ struct Tpogg: View {
                                 .foregroundColor(.secondary)
                                 .opacity(Azvgtfcpetran.shared.pkzbxkeapdewve ? 0.6 : 1)
                             
-                            Spacer()
-                            
-                            ZStack {
-                                Circle()
-                                    .fill(Color.zwtjfhoowdynuq)
-                                    .frame(width: 24, height: 24)
-                                
-                                Circle()
-                                    .fill(Color.itlbv)
-                                    .frame(width: 10, height: 10)
-                            }
                         }
-                        .padding(.horizontal, 20)
                         .frame(height: 66)
+                        .frame(width: 358)
                         .background(Color.itlbv)
                         .cornerRadius(10)
-                        .padding(.horizontal, 30)
+                        
                     }
                     
                 } else {

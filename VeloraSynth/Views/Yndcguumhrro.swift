@@ -544,6 +544,8 @@ var atqmm:  Dictionary<Int, String> {
     @State private var uszkznjb = ""
     @StateObject private var ckrlegxcjmpcyp = Kob.shared
     @State private var qfhppjvq = false
+    @Binding var showLifetimeOffer: Bool
+    @Binding var showSpecialOffer: Bool
     
     var body: some View {
         NavigationStack {
@@ -551,12 +553,13 @@ var atqmm:  Dictionary<Int, String> {
                 Color.wavcpwugess.edgesIgnoringSafeArea(.all)
                 
                 VStack(spacing: 0) {
-                    Image(.pwivvdhu)
+                    Image(.asvbdesv)
                         .resizable()
                         .scaledToFill()
                         .clipped()
                         .frame(maxWidth: .infinity)
-                        .offset(y: 135)
+                        .offset(y: 45)
+                        .ignoresSafeArea(.all)
                     
                     VStack(spacing: 0) {
                         Text(xgostlttaobj)
@@ -635,7 +638,23 @@ var atqmm:  Dictionary<Int, String> {
                                         Text("Privacy Policy")
                                             .underline()
                                     }
+                                
+//                                if Azvgtfcpetran.shared.skrcz {
+                                    Button(
+                                        action: {
+                                            if Azvgtfcpetran.shared.spjwjw {
+                                                showLifetimeOffer = true
+                                            } else if Azvgtfcpetran.shared.sprnnndkke {
+                                                showSpecialOffer = true
+                                            }
+                                            nywdcsziuc.impactOccurred()
+                                        }) {
+                                            Text(Azvgtfcpetran.shared.spjwjw ? "Lifetime" : "Special Offer")
+                                                .underline()
+                                        }
+//                                }
                             }
+                            .padding(.top, 6)
                             .xmjsmo(.ioibd(color: Color.seyoqnymjbswa))
                             
                             Spacer()
@@ -643,7 +662,7 @@ var atqmm:  Dictionary<Int, String> {
                         .frame(height: 226)
                         .padding(.top, 24)
                     }
-                    .padding(.bottom, 20)
+                    .padding(.bottom, 24)
                     .background(Color.zwtjfhoowdynuq)
                     .cornerRadius(20, wpmukbx: [.topLeft, .topRight])
                 }
@@ -1436,8 +1455,4 @@ var qqkmdtrgckxd:  Array<Double> {
     let mgkahxqwe: String
     let gwdzugnzquwgi: String
     let toznn: Vdfskkqawmog
-}
-
-#Preview {
-    Mtjxlna()
 }

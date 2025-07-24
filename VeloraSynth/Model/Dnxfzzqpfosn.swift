@@ -82,6 +82,10 @@ wqjrdykfrwmfgk()
                 price = price / 52
             case .oewdfc:
                 price = 0
+            case .spqegvrg:
+                price = price / 12
+            case .flrbtmont:
+                price = price / 12
             }
 
             price = price.gatxxq(to: 2)
@@ -99,8 +103,12 @@ wqjrdykfrwmfgk()
             return pbszklslndrbfm.string(from: NSDecimalNumber(decimal: 3.99)) ?? "$3.99 per week"
         case .flrbt:
             return pbszklslndrbfm.string(from: NSDecimalNumber(decimal: 0.73)) ?? "$0.73 per week"
-        case.oewdfc:
+        case .oewdfc:
             return pbszklslndrbfm.string(from: NSDecimalNumber(decimal: 0.0)) ?? "$0.00"
+        case .spqegvrg:
+            return pbszklslndrbfm.string(from: NSDecimalNumber(decimal: 2.5)) ?? "$2.5"
+        case .flrbtmont:
+            return pbszklslndrbfm.string(from: NSDecimalNumber(decimal: 3.33)) ?? "$3.33"
         }
     }
     func yypkjwpy() {
@@ -202,8 +210,12 @@ wqjrdykfrwmfgk()
             return formatter.string(from: NSDecimalNumber(decimal: 17.99)) ?? "$17.99"
         case .flrbt:
             return formatter.string(from: NSDecimalNumber(decimal: 39.99)) ?? "$39.99"
-        case.oewdfc:
+        case .oewdfc:
             return formatter.string(from: NSDecimalNumber(decimal: 0.0)) ?? "$0.00"
+        case .spqegvrg:
+            return formatter.string(from: NSDecimalNumber(decimal: 29.99)) ?? "$29.99"
+        case .flrbtmont:
+            return formatter.string(from: NSDecimalNumber(decimal: 39.99)) ?? "$39.99"
         }
     }
     func pgkjzzvhpgtov() {
@@ -698,6 +710,8 @@ var aihdcemqc:  Set<Int> {
     case jcs
     case flrbt
     case oewdfc
+    case spqegvrg
+    case flrbtmont
 
 
     var bcvnxyte: String {
@@ -712,6 +726,10 @@ var aihdcemqc:  Set<Int> {
             return Uibeqqmoelxfye.flrbt
         case .oewdfc:
             return Uibeqqmoelxfye.oewdfc
+        case .spqegvrg:
+            return Uibeqqmoelxfye.spqegvrg
+        case .flrbtmont:
+            return Uibeqqmoelxfye.flrbt
         }
     }
 
@@ -856,6 +874,10 @@ zjvvvwbpm()
             return "Super sub\n\(qlv(toznn: toznn)) per week"
         case.oewdfc:
             return "$0.00"
+        case .spqegvrg:
+            return "\(qlv(toznn: toznn))"
+        case .flrbtmont:
+            return "\(qlv(toznn: toznn))"
         }
     } 
 var kuwrbvbxqxb:  Dictionary<String, Double> {

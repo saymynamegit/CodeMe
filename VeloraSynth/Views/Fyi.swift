@@ -567,6 +567,9 @@ struct Cyiujgjs: View {
     @State private var sdfdf = false
     @State private var afdsaf = false
     
+    @State private var showLifetimeOffer: Bool = false
+    @State private var showSpecialOffer: Bool = false
+    
     @State private var uijfiuxmlvw = true
     @AppStorage("didFinishOnboarding") var ivdpuarnih = false
     @AppStorage("didShowSpecialOffer") var ofssfeg = false
@@ -606,7 +609,7 @@ struct Cyiujgjs: View {
             } else {
                 if ivdpuarnih {
                     if afgnddm {
-                        Flnfuqoi(hseeoauekvfhog: $afgnddm)
+                        Flnfuqoi(hseeoauekvfhog: $afgnddm, showLifetimeOffer: $showLifetimeOffer, showSpecialOffer: $showSpecialOffer)
                     } else {
                         ZStack(alignment: .bottom) {
                             Group {
@@ -630,7 +633,7 @@ struct Cyiujgjs: View {
 //                    }
                     
                 } else {
-                    Eqfxuvfdlnwckx(ivdpuarnih: $ivdpuarnih)
+                    Eqfxuvfdlnwckx(ivdpuarnih: $ivdpuarnih, showLifetimeOffer: $showLifetimeOffer, showSpecialOffer: $showSpecialOffer)
                         
                 }
                 
@@ -644,16 +647,16 @@ struct Cyiujgjs: View {
                 }
             }
         }
-        .onChange(of: ivdpuarnih) { newItem in
-          
-                if newItem == true {
-                    if !hwsmvprpfq.dcajpxib {
-                        if Azvgtfcpetran.shared.spjwjw {
-                        offqrgvr = true
-                    }
-                }
-            }
-        }
+//        .onChange(of: ivdpuarnih) { newItem in
+//          
+//                if newItem == true {
+//                    if !hwsmvprpfq.dcajpxib {
+//                        if Azvgtfcpetran.shared.spjwjw {
+//                        offqrgvr = true
+//                    }
+//                }
+//            }
+//        }
         .onChange(of: eqxtrhv) { newItem in
             Task {
                 if let data = try? await newItem?.loadTransferable(type: Data.self),
@@ -732,14 +735,17 @@ struct Cyiujgjs: View {
         } message: {
             Text("Please enable camera access in Settings to use this feature.")
         }
-        .fullScreenCover(isPresented: $offqrgvr) {
-            Goefkek(hseeoauekvfhog: $offqrgvr)
+        .fullScreenCover(isPresented: $showSpecialOffer) {
+            Goefkek(hseeoauekvfhog: $showSpecialOffer)
+        }
+        .fullScreenCover(isPresented: $showLifetimeOffer) {
+            Ligewefeff(hseeoauekvfhog: $showLifetimeOffer)
         }
         .fullScreenCover(isPresented: $hseeoauekvfhog) {
-            Flnfuqoi(hseeoauekvfhog: $hseeoauekvfhog)
+            Flnfuqoi(hseeoauekvfhog: $hseeoauekvfhog, showLifetimeOffer: $showLifetimeOffer, showSpecialOffer: $showSpecialOffer)
         }
         .fullScreenCover(isPresented: $lxpyaqywgnvrky, content: {
-            Mtjxlna()
+            Mtjxlna(showLifetimeOffer: $showLifetimeOffer, showSpecialOffer: $showSpecialOffer)
         })
         .fullScreenCover(isPresented: $htra) {
             if let pjhfoy = danunglnf {

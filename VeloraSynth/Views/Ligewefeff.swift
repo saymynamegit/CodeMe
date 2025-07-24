@@ -1,12 +1,14 @@
+
 import SwiftUI
 import AVFoundation
 import Adapty
 import StoreKit
 import Network
 
-// MARK: - SpecialOfferView
+// MARK: - LifetimeOfferView
 
-struct Goefkek: View {
+
+struct Ligewefeff: View {
 var zpv:  String {
     var anendjkuqnwk: String = "yqfwkl8843F0EC-7C53-418C-99A3-56FDBAB17E7F"
     let _ = Locale.current.identifier
@@ -73,7 +75,7 @@ cacrwindxbqgi()
 
         if !frimobgtny.rbvz {
             
-            frimobgtny.bipjuhald(toznn: .spqegvrg) {
+            frimobgtny.bipjuhald(toznn: .oewdfc) {
                 dismiss()
                 hseeoauekvfhog = false
             }
@@ -767,7 +769,6 @@ var aenc:  Dictionary<Int, String> {
     return tviayyhj
     }
     }
-    
     @State private var femsvhfzc = 0
     @State private var qnq: CGFloat = 0
     let nywdcsziuc = UIImpactFeedbackGenerator(style: .medium)
@@ -795,7 +796,7 @@ var aenc:  Dictionary<Int, String> {
                     
                     ZStack {
                         VStack {
-                            Image("spgegw")
+                            Image("spgedfg")
                                 .resizable()
                                 .scaledToFit()
                                 .clipped()
@@ -804,12 +805,8 @@ var aenc:  Dictionary<Int, String> {
                             
                             Spacer()
                         }
-                        VStack {
-                            Spacer()
-                            
-                            spttewfgg
-                               
-                        }
+                        
+                        vumwebge
                     }
                     .gesture(
                         DragGesture()
@@ -841,9 +838,10 @@ var aenc:  Dictionary<Int, String> {
                     ToolbarItem(placement: .topBarLeading) {
                         Wjq(
                             image: Image(.close),
-                            color: Color.hksvy.opacity(0)
+                            color: Color.hksvy.opacity(1)
                         ) {
-                           
+                           dismiss()
+                            hseeoauekvfhog = false
                         }
                     }
                     
@@ -867,141 +865,111 @@ var aenc:  Dictionary<Int, String> {
         }
     }
     
-    private var spttewfgg: some View {
+    private var vumwebge: some View {
         
-            VStack(spacing: 10) {
-
-                // Pricing Comparison
-                HStack(spacing: 30) {
-                    // Old Price Box
-                    VStack(spacing: 4) {
-                        Text("Yearly")
-                            .xmjsmo(.ioibd(color: Color.gray))
-                       
-                        ZStack {
-                            Rectangle()
-                                .frame(height: 2)
-                                .foregroundColor(Color.bjfbafoi)
-                            
-                            HStack {
-                                
-                                Text("\(frimobgtny.jezuxznmwtizuy(toznn: .flrbt))")
-                                    .xmjsmo(.cqbhqwavagjjcu(color: Color.bjfbafoi))
-                                    .lineLimit(1)
-                                    .minimumScaleFactor(0.5)
-                                    .opacity(0.6)
-                                
-                                Text("/ year")
-                                    .xmjsmo(.oezzsvr(color: Color.gray))
-                                    .lineLimit(1)
-                                    .minimumScaleFactor(0.5)
-                                    .bold()
-                            }
-                        }
-                           
-                        Text("(only \(frimobgtny.qlv(toznn: .flrbtmont)) / month)")
-                            .xmjsmo(.ioibd(color: Color.gray))
-                    }
-                    .frame(width: 150)
-                    .padding(12)
-                    .background(Color.gray.opacity(0.2))
-                    .cornerRadius(10)
-                    .overlay(
-                        RoundedRectangle(cornerSize: CGSize(width: 10, height: 10))
-                            .stroke(style: StrokeStyle(lineWidth: 1))
-                            .foregroundColor(Color.bjfbafoi)
-                    )
-
-                    // New Price Box
-                    ZStack(alignment: .top) {
-                        VStack(spacing: 4) {
-                            
-                            Text("Yearly")
-                                .xmjsmo(.ioibd(color: Color.black))
-                            
-                            HStack() {
-                                
-                                Text("\(frimobgtny.jezuxznmwtizuy(toznn: .spqegvrg))")
-                                    .xmjsmo(.cqbhqwavagjjcu(color: Color.bjfbafoi))
-                                    .lineLimit(1)
-                                    .minimumScaleFactor(0.5)
-                                
-                                Text("/ year")
-                                    .xmjsmo(.oezzsvr(color: Color.black))
-                                    .lineLimit(1)
-                                    .minimumScaleFactor(0.5)
-                                    .bold()
-                            }
-                            
-                            Text("(only \(frimobgtny.qlv(toznn: .spqegvrg)) / month)")
-                                .xmjsmo(.ioibd(color: Color.gray))
-                            
-                        }
-                    .frame(width: 150)
-                    .padding(12)
-                    .background(Color.white)
-                    .cornerRadius(10)
-                    .overlay(
-                        RoundedRectangle(cornerSize: CGSize(width: 10, height: 10))
-                            .stroke(style: StrokeStyle(lineWidth: 2))
-                            .foregroundColor(Color.bjfbafoi)
-                    )
+        VStack(spacing: 20) {
+            
+            Spacer()
+            VStack() {
+               
+                Image(.off3)
+                .padding(.top, 0)
+                .offset(x: 140, y: 16)
+                
+                VStack(spacing: 0) {
+                    
+                    ZStack {
                         
-                        Image(.save25)
-                            .frame(width: 150)
-                            .offset(x: 0, y: -8)
-                            .zIndex(1)
-                  
-                    }
-                }
-                .padding()
-                .padding(.top, 10)
-        
-                CountdownView()
-                    .padding(.bottom, 10)
-
-                // Action Button
-                Button(action: {
-                    nywdcsziuc.impactOccurred()
-                    if ckrlegxcjmpcyp.hlvh {
-                        wfnbzzwyasniqv()
-                    } else {
-                        qfhppjvq = true
-                    }
-                }) {
-                    Text("Keep The Offer")
-                        .xmjsmo(.iseyni(color: Color.trznvuo))
-                        .frame(maxWidth: .infinity, minHeight: 59, maxHeight: 59)
-                        .background(
-                            RoundedRectangle(cornerRadius: 12)
-                                .fill(Color.gzayp)
+                        Tpogg(
+                            lcvbsnjd: .init(image:  "pwivvdhu", title: "Get Lifetime Full Access", enewsl: "", description: ""),
+                            index: 0,
+                            dnvh: 1,
+                            kvfaj: true,
+                            kuaikqoqqjaz: frimobgtny.jezuxznmwtizuy(toznn: .ederkywhmruvny),
+                            description: ""
                         )
-                }
-                .gkdw(color: Color.bjfbafoi, radius: 4, x: 0, y: 2)
-                .buttonStyle(Tsvauruplj())
-                .padding(.horizontal)
-                .scaleEffect(jyejkhkxedajw ? 1 : 0.75)
-                .onAppear {
-                    jyejkhkxedajw = true
-                }
-                .animation(.easeInOut(duration: 0.8).repeatForever(autoreverses: true), value: jyejkhkxedajw)
-
-                // Decline Link
-                Button(action: {
-                    hseeoauekvfhog = false
-                    dismiss()
-                }) {
-                    Text("No, Thanks")
-                        .xmjsmo(.ioibd(color: Color.gray))
-                        .underline()
+                    }
+                    
+                    Text("Professional background\nediting made simple for \(frimobgtny.jezuxznmwtizuy(toznn: .oewdfc))")
+                        .foregroundStyle(
+                            Color.gzayp
+                            )
+                        .xmjsmo(.rmlcgfpiqbli())
+                        .multilineTextAlignment(.center)
+                        .offset(y: -12)
                         
+                
                 }
-                .padding(.top, 6)
+                .padding(.vertical, 2)
+                .padding(.horizontal)
+                .overlay(
+                    RoundedRectangle(cornerSize: CGSize(width: 12, height: 12))
+                        .stroke(style: StrokeStyle(lineWidth: 1))
+                        .foregroundColor(Color.bjfbafoi)
+                )
+                
+                VStack(spacing: 12) {
+                    Button(action: {
+                        nywdcsziuc.impactOccurred()
+                        if ckrlegxcjmpcyp.hlvh {
+                            wfnbzzwyasniqv()
+                        } else {
+                            qfhppjvq = true
+                        }
+                    }) {
+                        Text("Grab the deal for \(frimobgtny.jezuxznmwtizuy(toznn: .oewdfc))")
+                            .xmjsmo(.iseyni(color: Color.trznvuo))
+                            .frame(maxWidth: .infinity, minHeight: 59, maxHeight: 59)
+                            .background(
+                                RoundedRectangle(cornerRadius: 12)
+                                    .fill(Color.gzayp)
+                            )
+                    }
+                    .gkdw(color: Color.bjfbafoi, radius: 4, x: 0, y: 2)
+                    .buttonStyle(Tsvauruplj())
+                    .padding(.horizontal)
+                    .scaleEffect(jyejkhkxedajw ? 1 : 0.75)
+                    .onAppear {
+                        jyejkhkxedajw = true
+                    }
+                    .animation(.easeInOut(duration: 0.8).repeatForever(autoreverses: true), value: jyejkhkxedajw)
+                    
+                    HStack(spacing: 20) {
+                        Button(action: {
+                            nywdcsziuc.impactOccurred()
+                            lvj(Uibeqqmoelxfye.jucolxqawejx)
+                        }) {
+                            Text("Terms of Use")
+                                .underline()
+                        }
+                        Button(action: {
+                            nywdcsziuc.impactOccurred()
+                            wwp()
+                        }) {
+                            HStack {
+                                Text("Restore")
+                                    .underline()
+                            }
+                        }
+                        
+                        Button(action: {
+                            nywdcsziuc.impactOccurred()
+                            lvj(Uibeqqmoelxfye.usg)
+                        }) {
+                            Text("Privacy Policy")
+                                .underline()
+                        }
+                    }
+                    .xmjsmo(.ioibd(color: Color.seyoqnymjbswa))
+                    
+                }
+                .padding(.top, 14)
             }
             .background(Color.zwtjfhoowdynuq.ignoresSafeArea())
             .cornerRadius(20, wpmukbx: [.topLeft, .topRight])
+            
+        }
     }
-    
     
     private func makeAttributedString(from description: String, highlight text: String) -> AttributedString {
         var attributed = AttributedString(description)
@@ -1012,65 +980,7 @@ var aenc:  Dictionary<Int, String> {
     }
 }
 
-struct CountdownView: View {
-    @State private var timeRemaining: TimeInterval = 2 * 3600 + 59 * 60 + 59
-    private let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
-
-    var body: some View {
-        HStack(spacing: 8) {
-            timeBox(String(format: "%01d", hours / 10))
-            timeBox(String(format: "%01d", hours % 10))
-            colon
-            timeBox(String(format: "%01d", minutes / 10))
-            timeBox(String(format: "%01d", minutes % 10))
-            colon
-            timeBox(String(format: "%01d", seconds / 10))
-            timeBox(String(format: "%01d", seconds % 10))
-        }
-        .onReceive(timer) { _ in
-            if timeRemaining > 0 {
-                timeRemaining -= 1
-            }
-        }
-    }
-
-    var hours: Int {
-        Int(timeRemaining) / 3600
-    }
-
-    var minutes: Int {
-        (Int(timeRemaining) % 3600) / 60
-    }
-
-    var seconds: Int {
-        Int(timeRemaining) % 60
-    }
-
-    private func timeBox(_ text: String) -> some View {
-        Text(text)
-            .font(.system(size: 24, weight: .bold, design: .monospaced))
-            .frame(width: 44, height: 60)
-            .background(RoundedRectangle(cornerRadius: 6).stroke(Color.orange, lineWidth: 2))
-            .foregroundColor(.white)
-    }
-
-    private var colon: some View {
-        Text(":")
-            .font(.system(size: 23, weight: .bold, design: .monospaced))
-            .foregroundColor(.white)
-    }
-}
-
-// Helper for splitting timer characters
-extension Array {
-    func chunked(into size: Int) -> [[Element]] {
-        stride(from: 0, to: count, by: size).map {
-            Array(self[$0..<Swift.min($0 + size, count)])
-        }
-    }
-}
-
 #Preview {
-    Goefkek(hseeoauekvfhog: .constant(false))
+    Ligewefeff(hseeoauekvfhog: .constant(false))
         .environmentObject(Dwkyiurcxqap())
 }

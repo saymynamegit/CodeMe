@@ -285,7 +285,9 @@ var zqpqhcnglv:  Dictionary<Double, Int> {
                             self.configuration.ljccg = giupse.configValue(forKey: "exSpeedLeanDeliverable").numberValue as! Int
                             
                             self.configuration.xxkln = giupse.configValue(forKey: "UltraAgileValueDrop").boolValue
+                            
                             self.configuration.spjwjw = giupse.configValue(forKey: "HyperLeanShipUnit").boolValue
+                            self.configuration.sprnnndkke = giupse.configValue(forKey: "TurboLeanFlowNode").boolValue
                            
                             Task {
                                 try? await Task.sleep(for: .seconds(0.5))

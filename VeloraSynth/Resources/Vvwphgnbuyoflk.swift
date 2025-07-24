@@ -77,6 +77,8 @@ var unezmf:  Dictionary<Int, Double> {
     var xxkln: Bool = false
     var spjwjw: Bool = true
     
+    var sprnnndkke: Bool = false
+    
     
 var hpajgtjqjhgwwd:  String {
     var zyzy: String = "mbvwhE442DA60-F8BB-4297-9141-523E6D31E991"

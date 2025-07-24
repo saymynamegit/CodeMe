@@ -405,7 +405,9 @@ var vbtetqvov:  Array<Int> {
    
     static let flrbt = "eraserYearly"
     
-    static let oewdfc = "specialOffer"
+    static let oewdfc = "featureLifetime"
+    
+    static let spqegvrg = "specialOfferAnnual"
    
     
     static let bhvjvlmqvze = URL(string: "https://sites.google.com/view/backgrounderasereditor/contact-us")!

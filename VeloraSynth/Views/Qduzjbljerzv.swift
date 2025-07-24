@@ -780,6 +780,8 @@ var aenc:  Dictionary<Int, String> {
     @State private var uszkznjb = ""
     @Environment(\.dismiss) private var dismiss
     @Binding var hseeoauekvfhog: Bool
+    @Binding var showLifetimeOffer: Bool
+    @Binding var showSpecialOffer: Bool
     @EnvironmentObject var frimobgtny: Dwkyiurcxqap
     @StateObject private var ckrlegxcjmpcyp = Kob.shared
     @State private var qfhppjvq = false
@@ -800,10 +802,11 @@ var aenc:  Dictionary<Int, String> {
                                 .scaledToFit()
                                 .clipped()
                                 .frame(maxWidth: .infinity)
-                            
+                                .ignoresSafeArea(.all)
+                              
                             Spacer()
                         }
-                        
+    
                         vumwebge
                     }
                     .gesture(
@@ -878,7 +881,8 @@ var aenc:  Dictionary<Int, String> {
                             .frame(width: femsvhfzc == index ? 32 : 8, height: 8)
                     }
                 }
-                .padding(.top, 22)
+                .padding(.top, 35)
+                .padding(.bottom, 10)
                 .opacity(0)
                 
                 ZStack {
@@ -894,7 +898,7 @@ var aenc:  Dictionary<Int, String> {
                     .opacity(femsvhfzc == 0 ? 1 : 0)
                     
                 }
-                .padding(.bottom, 10)
+                .padding(.bottom, 20)
                 
                 VStack(spacing: 12) {
                     Button(action: {
@@ -916,6 +920,7 @@ var aenc:  Dictionary<Int, String> {
                     .gkdw(color: Color.bjfbafoi, radius: 4, x: 0, y: 2)
                     .buttonStyle(Tsvauruplj())
                     .padding(.horizontal, 30)
+                    .padding(.bottom, 10)
                     .scaleEffect(jyejkhkxedajw ? 1 : 0.75)
                     .onAppear {
                         jyejkhkxedajw = true
@@ -947,9 +952,23 @@ var aenc:  Dictionary<Int, String> {
                             Text("Privacy Policy")
                                 .underline()
                         }
+                        
+                        if Azvgtfcpetran.shared.skrcz {
+                            Button(
+                                action: {
+                                    if Azvgtfcpetran.shared.spjwjw {
+                                        showLifetimeOffer = true
+                                    } else if Azvgtfcpetran.shared.sprnnndkke {
+                                        showSpecialOffer = true
+                                    }
+                                    nywdcsziuc.impactOccurred()
+                                }) {
+                                    Text(Azvgtfcpetran.shared.spjwjw ? "Lifetime" : "Special Offer")
+                                        .underline()
+                                }
+                        }
                     }
                     .xmjsmo(.ioibd(color: Color.seyoqnymjbswa))
-                    .opacity(Azvgtfcpetran.shared.skrcz ? 0 : 1)
                     
                 }
             }
