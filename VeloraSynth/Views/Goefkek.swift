@@ -800,13 +800,14 @@ var aenc:  Dictionary<Int, String> {
                                 .scaledToFit()
                                 .clipped()
                                 .frame(maxWidth: .infinity)
+                                .offset(y: -15)
                                 .ignoresSafeArea()
                             
                             Spacer()
                         }
                         VStack {
                             Spacer()
-                            
+                            Image(.gdefgvdfe)
                             spttewfgg
                                
                         }
@@ -868,7 +869,7 @@ var aenc:  Dictionary<Int, String> {
     }
     
     private var spttewfgg: some View {
-        
+      
             VStack(spacing: 10) {
 
                 // Pricing Comparison
@@ -955,7 +956,7 @@ var aenc:  Dictionary<Int, String> {
                     }
                 }
                 .padding()
-                .padding(.top, 10)
+                .padding(.top, 25)
         
                 CountdownView()
                     .padding(.bottom, 10)
@@ -1013,7 +1014,9 @@ var aenc:  Dictionary<Int, String> {
 }
 
 struct CountdownView: View {
-    @State private var timeRemaining: TimeInterval = 2 * 3600 + 59 * 60 + 59
+    @AppStorage("countdownEndDate") private var countdownEndDate: Double = 0
+    @State private var timeRemaining: TimeInterval = 0
+
     private let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
 
     var body: some View {
@@ -1027,11 +1030,31 @@ struct CountdownView: View {
             timeBox(String(format: "%01d", seconds / 10))
             timeBox(String(format: "%01d", seconds % 10))
         }
-        .onReceive(timer) { _ in
-            if timeRemaining > 0 {
-                timeRemaining -= 1
-            }
+        .onAppear {
+            initializeCountdown()
         }
+        .onReceive(timer) { _ in
+            updateCountdown()
+        }
+    }
+
+    // MARK: - Countdown Logic
+
+    private func initializeCountdown() {
+        let now = Date().timeIntervalSince1970
+
+        // If no end date stored, start a new countdown
+        if countdownEndDate <= now {
+            let newEnd = now + (2 * 3600 + 59 * 60 + 59)
+            countdownEndDate = newEnd
+        }
+
+        updateCountdown()
+    }
+
+    private func updateCountdown() {
+        let now = Date().timeIntervalSince1970
+        timeRemaining = max(0, countdownEndDate - now)
     }
 
     var hours: Int {
@@ -1045,6 +1068,8 @@ struct CountdownView: View {
     var seconds: Int {
         Int(timeRemaining) % 60
     }
+
+    // MARK: - UI
 
     private func timeBox(_ text: String) -> some View {
         Text(text)

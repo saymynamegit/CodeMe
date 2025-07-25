@@ -458,11 +458,6 @@ var xzjlqaszgshry:  String {
                                 
                                 Rdqzhtfd {
                                     nywdcsziuc.impactOccurred()
-                                    if !hwsmvprpfq.dcajpxib {
-                                        
-                                        hseeoauekvfhog = true
-                                        return
-                                    }
                                     zbnrfbynzsx = true
                                 }
                                 

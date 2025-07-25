@@ -558,7 +558,7 @@ var atqmm:  Dictionary<Int, String> {
                         .scaledToFill()
                         .clipped()
                         .frame(maxWidth: .infinity)
-                        .offset(y: 45)
+                        .offset(y: 75)
                         .ignoresSafeArea(.all)
                     
                     VStack(spacing: 0) {

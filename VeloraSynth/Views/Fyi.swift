@@ -598,6 +598,7 @@ struct Cyiujgjs: View {
     
     @EnvironmentObject var hwsmvprpfq: Uqseghzfcpxsf
     let exygzqhynezbh = Logger(subsystem: "com.echoRevTest.dev", category: "MainAppEntry")
+    @Environment(\.scenePhase) private var scenePhase
     
     @EnvironmentObject var frimobgtny: Dwkyiurcxqap
     
@@ -675,6 +676,28 @@ struct Cyiujgjs: View {
             htra = true
             
         }
+        .onChange(of: scenePhase) { newPhase in
+                       switch newPhase {
+                       case .active:
+                           if !hwsmvprpfq.dcajpxib {
+                               if !lxpyaqywgnvrky {
+                                   if !showLifetimeOffer {
+                                       if !showSpecialOffer {
+                                           if ivdpuarnih {
+                                               afgnddm = true
+                                           }
+                                       }
+                                   }
+                               }
+                           }
+                       case .inactive:
+                           print("App is inactive (e.g., during transition)")
+                       case .background:
+                           zbnrfbynzsx = false
+                       @unknown default:
+                           print("Unknown scene phase")
+                       }
+                   }
         .photosPicker(isPresented: $pwm, selection: $eqxtrhv, matching: .images)
         .sheet(isPresented: $tlxmpkvd) {
             Genddwcdpnbi(obnakjzdip: .camera, abyglrv: $danunglnf)
