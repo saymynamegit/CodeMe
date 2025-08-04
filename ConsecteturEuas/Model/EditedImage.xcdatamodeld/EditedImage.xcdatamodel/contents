@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="23788.4" systemVersion="24F74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="EditedImage" representedClassName="EditedImage" syncable="YES" codeGenerationType="class">
+        <attribute name="backgroundColorHex" optional="YES" attributeType="String"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="isPNG" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="pathsData" optional="YES" attributeType="Binary"/>
+        <attribute name="redoStackData" optional="YES" attributeType="Binary"/>
+        <attribute name="strokeColorHex" optional="YES" attributeType="String"/>
+        <attribute name="strokeWidthValue" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="undoStackData" optional="YES" attributeType="Binary"/>
+        <attribute name="uuid" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+    </entity>
+</model>

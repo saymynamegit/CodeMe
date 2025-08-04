@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B79215C0-93CF-43E1-AFA1-6B62AEAA176A"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "774BF2C4-1BD6-4721-A354-2A84369C8ECA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ConsecteturEuas/Model/Dnxfzzqpfosn.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "799"
+            endingLineNumber = "799"
+            landmarkName = "bipjuhald(toznn:onSuccess:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "774BF2C4-1BD6-4721-A354-2A84369C8ECA - aa95d7365b07df92"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 () async -&gt; () in ConsecteturEuas.Dwkyiurcxqap.bipjuhald(toznn: ConsecteturEuas.Vdfskkqawmog, onSuccess: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "ConsecteturEuas.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hruzinov/Developer/ConsecteturEuas/ConsecteturEuas/Model/Dnxfzzqpfosn.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "799"
+                  endingLineNumber = "799">
+               </Location>
+               <Location
+                  uuid = "774BF2C4-1BD6-4721-A354-2A84369C8ECA - 6cad300647865556"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(17) suspend resume partial function for closure #1 () async -&gt; () in ConsecteturEuas.Dwkyiurcxqap.bipjuhald(toznn: ConsecteturEuas.Vdfskkqawmog, onSuccess: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "ConsecteturEuas.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hruzinov/Developer/ConsecteturEuas/ConsecteturEuas/Model/Dnxfzzqpfosn.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "799"
+                  endingLineNumber = "799">
+               </Location>
+               <Location
+                  uuid = "774BF2C4-1BD6-4721-A354-2A84369C8ECA - 6ef079114ecc3257"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(18) suspend resume partial function for closure #1 () async -&gt; () in ConsecteturEuas.Dwkyiurcxqap.bipjuhald(toznn: ConsecteturEuas.Vdfskkqawmog, onSuccess: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "ConsecteturEuas.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hruzinov/Developer/ConsecteturEuas/ConsecteturEuas/Model/Dnxfzzqpfosn.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "799"
+                  endingLineNumber = "799">
+               </Location>
+               <Location
+                  uuid = "774BF2C4-1BD6-4721-A354-2A84369C8ECA - 50c3a23c51159f48"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(19) suspend resume partial function for closure #1 () async -&gt; () in ConsecteturEuas.Dwkyiurcxqap.bipjuhald(toznn: ConsecteturEuas.Vdfskkqawmog, onSuccess: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "ConsecteturEuas.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hruzinov/Developer/ConsecteturEuas/ConsecteturEuas/Model/Dnxfzzqpfosn.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "799"
+                  endingLineNumber = "799">
+               </Location>
+               <Location
+                  uuid = "774BF2C4-1BD6-4721-A354-2A84369C8ECA - 4d61058ad1afb850"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(20) suspend resume partial function for closure #1 () async -&gt; () in ConsecteturEuas.Dwkyiurcxqap.bipjuhald(toznn: ConsecteturEuas.Vdfskkqawmog, onSuccess: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "ConsecteturEuas.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hruzinov/Developer/ConsecteturEuas/ConsecteturEuas/Model/Dnxfzzqpfosn.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "799"
+                  endingLineNumber = "799">
+               </Location>
+               <Location
+                  uuid = "774BF2C4-1BD6-4721-A354-2A84369C8ECA - 4eb44e95d8f50551"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(21) suspend resume partial function for closure #1 () async -&gt; () in ConsecteturEuas.Dwkyiurcxqap.bipjuhald(toznn: ConsecteturEuas.Vdfskkqawmog, onSuccess: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "ConsecteturEuas.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hruzinov/Developer/ConsecteturEuas/ConsecteturEuas/Model/Dnxfzzqpfosn.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "799"
+                  endingLineNumber = "799">
+               </Location>
+               <Location
+                  uuid = "774BF2C4-1BD6-4721-A354-2A84369C8ECA - b08777a0a33ae252"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(22) suspend resume partial function for closure #1 () async -&gt; () in ConsecteturEuas.Dwkyiurcxqap.bipjuhald(toznn: ConsecteturEuas.Vdfskkqawmog, onSuccess: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "ConsecteturEuas.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hruzinov/Developer/ConsecteturEuas/ConsecteturEuas/Model/Dnxfzzqpfosn.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "799"
+                  endingLineNumber = "799">
+               </Location>
+               <Location
+                  uuid = "774BF2C4-1BD6-4721-A354-2A84369C8ECA - b33ff98949436d49"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Adapty.AdaptyPaywallProduct) -&gt; Swift.Bool in closure #1 () async -&gt; () in ConsecteturEuas.Dwkyiurcxqap.bipjuhald(toznn: ConsecteturEuas.Vdfskkqawmog, onSuccess: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "ConsecteturEuas.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hruzinov/Developer/ConsecteturEuas/ConsecteturEuas/Model/Dnxfzzqpfosn.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "799"
+                  endingLineNumber = "799">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "45B498EC-0841-4928-9D1E-EF0262DD73A4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ConsecteturEuas/Model/Pigbq.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "yalmaipzgaf()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "040E9892-4FD4-44A6-8ABF-BE072C8B1B29"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ConsecteturEuas/Model/Pigbq.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "yalmaipzgaf()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "040E9892-4FD4-44A6-8ABF-BE072C8B1B29 - 520e25e3a3993a01"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for ConsecteturEuas.Vxbzwfcq.yalmaipzgaf() async -&gt; ()"
+                  moduleName = "ConsecteturEuas.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hruzinov/Developer/ConsecteturEuas/ConsecteturEuas/Model/Pigbq.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36">
+               </Location>
+               <Location
+                  uuid = "040E9892-4FD4-44A6-8ABF-BE072C8B1B29 - 5bddd1d81c8c9206"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(8) suspend resume partial function for ConsecteturEuas.Vxbzwfcq.yalmaipzgaf() async -&gt; ()"
+                  moduleName = "ConsecteturEuas.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hruzinov/Developer/ConsecteturEuas/ConsecteturEuas/Model/Pigbq.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
