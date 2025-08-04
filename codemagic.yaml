@@ -12,8 +12,8 @@ workflows:
         bundle_identifier: com.BackgroundEraseRriskenzi.dev
       vars:
         BUNDLE_ID: "com.BackgroundEraseRriskenzi.dev"
-        XCODE_WORKSPACE: "VeloraSynth.xcodeproj" # <-- Put the name of your Xcode workspace here
-        XCODE_SCHEME: "VeloraSynth" # <-- Put the name of your Xcode scheme here
+        XCODE_WORKSPACE: "ConsecteturEuas.xcodeproj" # <-- Put the name of your Xcode workspace here
+        XCODE_SCHEME: "ConsecteturEuas" # <-- Put the name of your Xcode scheme here
         APP_STORE_APPLE_ID: 6748399601
       xcode: latest
       cocoapods: default
